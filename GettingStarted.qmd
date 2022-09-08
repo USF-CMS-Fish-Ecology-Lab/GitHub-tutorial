@@ -1,0 +1,87 @@
+---
+title: "Getting Started"
+---
+
+## How do I start using GitHub?
+
+### 1) Install [Git](https://git-scm.com/downloads) for your operating system. 
+
+
+It is easiest to use the default installation directory; however, if you
+want to the change the installation location, make note of the new directory
+because you will need to direction Rstudio, GitHub Desktop or other programs
+to that location. More on this below...
+
+### 2) Direct RStudio to Git to enable version control
+
+Git/SVN is found in the Global Options under "Tools"
+    
+![](images/GlobalOptions_RStudio.png)
+    
+
+### 3) Create a GitHub account
+
+![](images/GitHub_Registration.png)
+
+### 4) Choose a GUI client.
+
+Although Git comes with a GUI (specifically, GitGUI), there are countless
+other GUI's available, that each boast various utilities and add-ins may
+cater to different needs.
+
+We will cover [GitHub Desktop](https://desktop.github.com/) in this
+tutorial, since it is relatively simple and is directly offered by GitHub
+
+![](images/GitHubDesktop.png)
+
+### 5) Create a new, version controlled Rstudio project
+
+![](images/NewProject_1.png)
+
+![Be sure that 'create a git repository' is checked](images/NewProject_2.png)
+
+### ...or enable version control for an existing Rstudio project.
+
+Once version control has been enabled in the Global Options, you can it on for any pre-existing R Project in the Project Options. 
+
+![](images/ExistingProject_1.png)
+
+### 6) Add your local repository to GitHub Desktop
+
+![](images/GitHubDesktop_Add_1.png)
+
+![](images/GitHubDesktop_Add_2.png)
+
+![If you select a folder that does not contain a version-controlled .Rproj file, GitHub desktop will display an error](images/GitHubDesktop_Add_3.png)
+
+### 7) Publish your initial repository and any relevant files/code
+
+Select the files you want to include
+![](images/GitHubDesktop_Publish_1)
+
+Annotate and provide descriptive notes, then *commit*
+
+![](images/GitHubDesktop_Publish_2)
+
+**Publish!**
+
+![](images/GitHubDesktop_Publish_3)
+
+You can change the name of your repository, provide a description, indicate
+whether this should be made publicly available on GitHub for other users to
+view, and indicate whether this repo is personal, or belongs to a GitHub
+organization.
+
+### GitHub will now display any changes
+
+![](images/GitHubDesktop_Changes_1)
+
+### You can also look at the history
+
+Once you finish making changes, you will need to 'commit' and 'push' those
+changes to GitHub, where they then become a history marker in the catalog.
+
+![](images/GitHubDesktop_History_1)
+
+## Rinse, Repeat, Win!!!
+

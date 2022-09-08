@@ -2,8 +2,5 @@
 title: "About"
 ---
 
-About this site
-
-```{r}
-1 + 1
-```
+This tutorial was developed for the University of South Florida College of
+Marine Science's Fish Ecology Lab

@@ -3,11 +3,12 @@ project:
   output-dir: docs
 
 website:
-  title: "Testing"
+  title: "GitHub Tutorial"
   navbar:
     left:
       - href: index.qmd
         text: Home
+      - GettingStarted.qmd
       - about.qmd
   tools:
     - icon: github
