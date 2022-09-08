@@ -3,12 +3,18 @@ project:
   output-dir: docs
 
 website:
-  title: "GitHub tutorial"
+  title: "Testing"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+  tools:
+    - icon: github
+      menu: 
+        text: Source code
+        url: https://github.com/USF-CMS-Fish-Ecology-Lab/GitHub-tutorial
+     
 
 format:
   html:
