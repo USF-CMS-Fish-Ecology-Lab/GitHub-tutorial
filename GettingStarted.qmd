@@ -59,12 +59,10 @@ Once version control has been enabled in the Global Options, you can it on for a
 Select the files you want to include
 ![](images/GitHubDesktop_Publish_1)
 
-Annotate and provide descriptive notes, then *commit*
-\n
+Annotate and provide descriptive notes, then commit
 ![](images/GitHubDesktop_Publish_2)
 
-**Publish!**
-\n
+Publish!
 ![](images/GitHubDesktop_Publish_3)
 
 You can change the name of your repository, provide a description, indicate
