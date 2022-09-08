@@ -60,11 +60,9 @@ Select the files you want to include
 ![](images/GitHubDesktop_Publish_1)
 
 Annotate and provide descriptive notes, then *commit*
-
 ![](images/GitHubDesktop_Publish_2)
 
 **Publish!**
-
 ![](images/GitHubDesktop_Publish_3)
 
 You can change the name of your repository, provide a description, indicate
