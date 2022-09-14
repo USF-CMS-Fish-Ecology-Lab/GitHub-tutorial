@@ -20,7 +20,7 @@ This can be incredibly powerful for a number of reasons:
 
 2)  Cloud based services such as Box, OneDrive, or GoogleDrive allow you to sync changes across devices, but the simplicity of ASCII text files do not typically allow us to track where changes were made or how (e.g., MS Word's *Track* *Changes*). Git can identify those changes, and some GUI's will indicate where those changes exist in the script.
 
-![Note the replacement of "Testing" with "GitHub Tutorial"](images/ChangeLog.png){fig-align="center"}
+![Note the replacement of "Testing" with "GitHub Tutorial"](images/ChangeLog.png){style="text-align: center" fig-align="center"}
 
 3)  *R* and *Python* are among the most widely used open-source coding languages. Large-scale collaborative studies often bring people together, working together on code-based analyses, visualizations, etc. Git repositories allow for a centralized location for all of this to happen among collaborators while simultaneously tracking changes made by any one individual.
 
