@@ -1,0 +1,16 @@
+---
+title: "Advanced Uses"
+---
+
+## GitHub's potential extends beyond simple version control...
+
+Through [GitHub Pages](https://pages.github.com/), you can host any number of products:
+
+1.  A [personal website](https://jonpeake.github.io/)
+2.  Web-based [course materials](https://peppel-g.github.io/course-material/)
+3.  In-depth [guides](https://r4ds.had.co.nz/) (associated [GitHub repo](https://github.com/hadley/r4ds))
+4.  Our [student handbook](https://usf-cms-fish-ecology-lab.github.io/StudentGuideToSuccess/)
+
+Such products are typically developed using a mix of various language, but R Markdown or Quarto combined with RStudio's Visual Editor streamlines this process and help developers produce workable products in relatively short time - such was the case for this [GitHub tutorial repo](https://github.com/USF-CMS-Fish-Ecology-Lab/GitHub-tutorial)
+
+Ultimately, these various data streams open a world of opportunities for collaborating on products, easily sharing code among researchers, and developing and marketing yourself as a professional scientist.

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>GitHub Tutorial</title>
+<title>GitHub Tutorial - Advanced Uses</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -80,13 +80,13 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page">Home</a>
+    <a class="nav-link" href="./index.html">Home</a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./GettingStarted.html">Getting Started</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./AdvancedUtilities.html">Advanced Utilities</a>
+    <a class="nav-link active" href="./AdvancedUses.html" aria-current="page">Advanced Uses</a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html">About</a>
@@ -106,11 +106,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a>
-  <ul class="collapse">
-  <li><a href="#what-is-version-control-and-why-should-i-use-it" id="toc-what-is-version-control-and-why-should-i-use-it" class="nav-link" data-scroll-target="#what-is-version-control-and-why-should-i-use-it">What is version control and why should I use it?</a></li>
-  <li><a href="#so-what-is-github-and-how-is-it-different-from-git" id="toc-so-what-is-github-and-how-is-it-different-from-git" class="nav-link" data-scroll-target="#so-what-is-github-and-how-is-it-different-from-git">So what is GitHub, and how is it different from Git?</a></li>
-  </ul></li>
+  <li><a href="#githubs-potential-extends-beyond-simple-version-control" id="toc-githubs-potential-extends-beyond-simple-version-control" class="nav-link active" data-scroll-target="#githubs-potential-extends-beyond-simple-version-control">GitHub’s potential extends beyond simple version control…</a></li>
   </ul>
 </nav>
     </div>
@@ -119,7 +115,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">GitHub Tutorial</h1>
+<h1 class="title">Advanced Uses</h1>
 </div>
 
 
@@ -133,42 +129,19 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<style>
-.quarto-figure-center > figure {
-  text-align: center;
-}
-</style>
-<section id="introduction" class="level1">
-<h1>Introduction</h1>
-<p>This will serve as a short tutorial that covers the benefits of version control and how you can quickly setup and use a service such as GitHub to maintain, share, and collaborate on various code-based projects.</p>
-<section id="what-is-version-control-and-why-should-i-use-it" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-version-control-and-why-should-i-use-it">What is version control and why should I use it?</h2>
-<p>Scripts of coding language (e.g., <em>R</em>, <em>Python</em>) are often living documents that grow and change alongside the skills and needs of the developer, As a result, code if often re-written to test a new idea, produce a new analysis, or modify an existing figure.</p>
-<p>However, we may want to keep that original code, especially if we prescribe to the <em>’if it ain’t broke, don’t</em> <em>fix it’</em> mentality. This often leads to scripts full of extraneous or commented code, multiple versions of a script (e.g., <em>v1</em>, <em>v1.2</em>, <em>v2.6.7</em>), and an all around disorganized product that may be difficult to reproduce. Reproducibility, and more recently transparency of our code, are cornerstones of research and publishing.</p>
-<p>A service such as Git can help us achieve both of these things. Nearly all coding scripts are simple ASCII text files. They do not contain formatting complexities such as margins, font type, size, figures, etc. Therefore, services like Git are able to recognize nearly any in a script, allowing the developer to catalog and store those changes without the necessity of maintaining out-dated code or file revisions. In essence, we can create a <strong>repository of changes</strong> that allow us to visualize and accept/reject those changes, and possibly restore previous versions of our code if necessary.</p>
-<p>This can be incredibly powerful for a number of reasons:</p>
+<section id="githubs-potential-extends-beyond-simple-version-control" class="level2">
+<h2 class="anchored" data-anchor-id="githubs-potential-extends-beyond-simple-version-control">GitHub’s potential extends beyond simple version control…</h2>
+<p>Through <a href="https://pages.github.com/">GitHub Pages</a>, you can host any number of products:</p>
 <ol type="1">
-<li><p>If we break the code for an analysis or a figure, we can simply go back to a previous <em>working version</em> of our code - thus, <strong>version control</strong></p></li>
-<li><p>Cloud based services such as Box, OneDrive, or GoogleDrive allow you to sync changes across devices, but the simplicity of ASCII text files do not typically allow us to track where changes were made or how (e.g., MS Word’s <em>Track</em> <em>Changes</em>). Git can identify those changes, and some GUI’s will indicate where those changes exist in the script.</p></li>
+<li>A <a href="https://jonpeake.github.io/">personal website</a></li>
+<li>Web-based <a href="https://peppel-g.github.io/course-material/">course materials</a></li>
+<li>In-depth <a href="https://r4ds.had.co.nz/">guides</a> (associated <a href="https://github.com/hadley/r4ds">GitHub repo</a>)</li>
+<li>Our <a href="https://usf-cms-fish-ecology-lab.github.io/StudentGuideToSuccess/">student handbook</a></li>
 </ol>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/ChangeLog.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Note the replacement of “Testing” with “GitHub Tutorial”</figcaption><p></p>
-</figure>
-</div>
-<ol start="3" type="1">
-<li><p><em>R</em> and <em>Python</em> are among the most widely used open-source coding languages. Large-scale collaborative studies often bring people together, working together on code-based analyses, visualizations, etc. Git repositories allow for a centralized location for all of this to happen among collaborators while simultaneously tracking changes made by any one individual.</p></li>
-<li><p>We can create branches of our code to test out new approaches, analyses, etc., and then seamlessly fold those changes back into our mainstream code with little-to-no downtime. This is particularly relevant for websites or services that continually provide product(s), but where developers may want to make modifications to improve existing or add new features.</p></li>
-</ol>
-</section>
-<section id="so-what-is-github-and-how-is-it-different-from-git" class="level2">
-<h2 class="anchored" data-anchor-id="so-what-is-github-and-how-is-it-different-from-git">So what is GitHub, and how is it different from Git?</h2>
-<p>GitHub is one of many UIs that improve how we interact with Git. Git, similar to <em>R</em> is typically operated through text commands in the console (e.g., Command Prompt, PowerShell). GitHub is simply a more intuitive, graphical interface for the Git service(s). To make things even more complicated, there are a number of third-party programs that interact with GitHub.</p>
-<p>However, the key point is that much like RStudio needs <em>R</em> (or <em>Python</em>) to operate, GitHub requires Git to do what we want.</p>
+<p>Such products are typically developed using a mix of various language, but R Markdown or Quarto combined with RStudio’s Visual Editor streamlines this process and help developers produce workable products in relatively short time - such was the case for this <a href="https://github.com/USF-CMS-Fish-Ecology-Lab/GitHub-tutorial">GitHub tutorial repo</a></p>
+<p>Ultimately, these various data streams open a world of opportunities for collaborating on products, easily sharing code among researchers, and developing and marketing yourself as a professional scientist.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

@@ -9,13 +9,8 @@ website:
       - href: index.qmd
         text: Home
       - GettingStarted.qmd
+      - AdvancedUses.qmd
       - about.qmd
-  tools:
-    - icon: github
-      menu: 
-        text: Source code
-        url: https://github.com/USF-CMS-Fish-Ecology-Lab/GitHub-tutorial
-     
 
 format:
   html:
