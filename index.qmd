@@ -2,13 +2,6 @@
 title: "GitHub Tutorial"
 ---
 
-```{=html}
-<style>
-.quarto-figure-center > figure {
-  text-align: center;
-}
-</style>
-```
 # Introduction
 
 This will serve as a short tutorial that covers the benefits of version control and how you can quickly setup and use a service such as GitHub to maintain, share, and collaborate on various code-based projects.
